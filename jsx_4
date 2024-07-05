@@ -1,0 +1,33 @@
+// pages/about.js
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+
+export default function About() {
+  return (
+    <div>
+      <Header />
+      <main className="min-h-screen bg-gray-100 p-4">
+        <h1 className="text-4xl font-bold text-center mt-10">About Us</h1>
+        <p className="text-center mt-4">Information about the mission and vision of YouAreRad.org.</p>
+      </main>
+      <Footer />
+    </div>
+  );
+}
+
+// pages/contact.js
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+
+export default function Contact() {
+  return (
+    <div>
+      <Header />
+      <main className="min-h-screen bg-gray-100 p-4">
+        <h1 className="text-4xl font-bold text-center mt-10">Contact</h1>
+        <p className="text-center mt-4">How to get in touch with us.</p>
+      </main>
+      <Footer />
+    </div>
+  );
+}

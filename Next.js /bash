@@ -1,0 +1,4 @@
+npx create-next-app youarerad-clone
+cd youarerad-clone
+npm install tailwindcss postcss autoprefixer
+npx tailwindcss init -p

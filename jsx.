@@ -1,0 +1,26 @@
+// components/Header.js
+const Header = () => {
+  return (
+    <header className="text-center py-6 bg-blue-600 text-white">
+      <h1 className="text-4xl font-bold">YouAreRad.org Clone</h1>
+      <nav className="mt-4">
+        <a href="/" className="px-4">Home</a>
+        <a href="/about" className="px-4">About Us</a>
+        <a href="/contact" className="px-4">Contact</a>
+      </nav>
+    </header>
+  );
+};
+
+export default Header;
+
+// components/Footer.js
+const Footer = () => {
+  return (
+    <footer className="text-center py-4 bg-gray-800 text-white">
+      <p>&copy; 2024 YouAreRad.org Clone</p>
+    </footer>
+  );
+};
+
+export default Footer;

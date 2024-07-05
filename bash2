@@ -1,0 +1,4 @@
+/public          # Static assets
+/styles          # Global styles
+/pages           # Next.js pages
+/components      # React components
